@@ -1,21 +1,21 @@
 {
   "name": "keyboard-layers-2",
-  "displayName": "Keyboard Layers",
+  "displayName": "Keyboard Layers 2",
   "author": "awerlogus",
   "publisher": "awerlogus",
-  "description": "Keyboard layers lets you add keybinding layers that you can activate and deactivate at will.",
+  "description": "Keyboard layers 2 lets you add keybinding layers that you can activate and deactivate at will.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/awerlogus/keyboard-layers.git"
+    "url": "https://github.com/awerlogus/keyboard-layers-2.git"
   },
   "bugs": {
-    "url": "https://github.com/awerlogus/keyboard-layers/issues"
+    "url": "https://github.com/awerlogus/keyboard-layers-2/issues"
   },
-  "homepage": "https://github.com/awerlogus/keyboard-layers/#readme",
+  "homepage": "https://github.com/awerlogus/keyboard-layers-2/#readme",
   "categories": [
     "Other"
   ],
