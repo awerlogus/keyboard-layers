@@ -1,4 +1,4 @@
-# keyboard-layers
+# keyboard-layers-2
 
 Keyboard layers allows you to set keybindings which are specific to one of the infinite quickly switchable keyboard layers.
 
