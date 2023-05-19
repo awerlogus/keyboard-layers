@@ -1,0 +1,50 @@
+{
+  "name": "keyboard-layers",
+  "displayName": "Keyboard Layers",
+  "author": "awerlogus",
+  "publisher": "awerlogus",
+  "description": "Keyboard layers lets you add keybinding layers that you can activate and deactivate at will.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/awerlogus/keyboard-layers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awerlogus/keyboard-layers/issues"
+  },
+  "homepage": "https://github.com/awerlogus/keyboard-layers/#readme",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:keyboardLayers.changeLayer"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "keyboardLayers.changeLayer",
+        "title": "Changes keyboard layer. Pass args in form of { layer: string | undefined }"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.0",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
+    "@vscode/test-electron": "^2.2.0",
+    "eslint": "^8.28.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {}
+}
